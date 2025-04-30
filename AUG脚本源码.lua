@@ -47,7 +47,7 @@ end
 Start = tick()
 Heartbeat:Connect(HeartbeatUpdate)
 
-local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/xcmsnd/DrRay-UI-Library/refs/heads/main/61%E7%A0%81.txt"))();		
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/whenheer/iuop/refs/heads/main/Protected_7843953596944453.lua"))();		
 local win = ui:new("AUG脚本")
 --
 local UITab1 = win:Tab("信息",'16060333448')
@@ -66,9 +66,9 @@ about:Label("你的注入器:"..identifyexecutor())
 about:Label("你的用户名:"..game.Players.LocalPlayer.Character.Name)
 about:Label("服务器名称:"..game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name)
 
-local UITab3 = win:Tab("脚本合集",'16060333448')
+local UITab2 = win:Tab("脚本合集",'16060333448')
 
-local about = UITab3:section("脚本合集",true)
+local about = UITab2:section("脚本合集",true)
 
 about:Button("冷脚本",function()
 getgenv().Leng="冷脚本QQ群815883059" loadstring(game:HttpGet("https://raw.githubusercontent.com/odhdshhe/lenglenglenglenglenglenglenglenglenglenglengleng-cold-script-LBT-H/refs/heads/main/LENG-cold-script-LBT-H.txt"))()
